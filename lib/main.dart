@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:portfolio/home.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(Home());
 }
 
 class MyApp extends StatelessWidget {
