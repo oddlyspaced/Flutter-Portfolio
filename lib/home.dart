@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:portfolio/education.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class Home extends StatelessWidget {
@@ -66,13 +67,19 @@ class _HomeWidgetDesktopState extends State<HomeWidgetDesktop> {
                     ),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-                  child: Text(
-                    "Education",
-                    style: TextStyle(
-                      fontSize: topRightTextSize,
-                      color: Color.fromARGB(255, 33, 33, 33),
+                InkWell(
+                  onTap: () {
+                    Navigator.of(context).push(
+                        MaterialPageRoute(builder: (context) => Education()));
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+                    child: Text(
+                      "Education",
+                      style: TextStyle(
+                        fontSize: topRightTextSize,
+                        color: Color.fromARGB(255, 33, 33, 33),
+                      ),
                     ),
                   ),
                 ),
