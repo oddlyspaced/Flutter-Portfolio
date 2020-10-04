@@ -137,7 +137,7 @@ class _HomeWidgetDesktopState extends State<HomeWidgetDesktop> {
                     height: 240,
                     width: 240,
                     child: ClipRRect(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(999),
                       child: Image.network(
                         "https://avatars1.githubusercontent.com/u/47493184?s=460&u=21462bee9328a42d555c4611e4869931c2d09446&v=4",
                       ),
