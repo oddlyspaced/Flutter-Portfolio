@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
-class Home extends StatelessWidget {
+class Education extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,31 +17,31 @@ class Home extends StatelessWidget {
           tablet: 1000,
           watch: null,
         ),
-        mobile: HomeWidgetMobile(),
-        desktop: HomeWidgetDesktop(),
+        mobile: EducationScreenMobile(),
+        desktop: EducationScreenDesktop(),
       ),
     );
   }
 }
 
-class HomeWidgetMobile extends StatefulWidget {
+class EducationScreenMobile extends StatefulWidget {
   @override
-  _HomeWidgetMobileState createState() => _HomeWidgetMobileState();
+  _EducationScreenMobileState createState() => _EducationScreenMobileState();
 }
 
-class _HomeWidgetMobileState extends State<HomeWidgetMobile> {
+class _EducationScreenMobileState extends State<EducationScreenMobile> {
   @override
   Widget build(BuildContext context) {
     return Container();
   }
 }
 
-class HomeWidgetDesktop extends StatefulWidget {
+class EducationScreenDesktop extends StatefulWidget {
   @override
-  _HomeWidgetDesktopState createState() => _HomeWidgetDesktopState();
+  _EducationScreenDesktopState createState() => _EducationScreenDesktopState();
 }
 
-class _HomeWidgetDesktopState extends State<HomeWidgetDesktop> {
+class _EducationScreenDesktopState extends State<EducationScreenDesktop> {
   @override
   Widget build(BuildContext context) {
     var topRightTextSize = 24.0;
@@ -60,16 +60,6 @@ class _HomeWidgetDesktopState extends State<HomeWidgetDesktop> {
                   padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
                   child: Text(
                     "Home",
-                    style: TextStyle(
-                      fontSize: topRightTextSize,
-                      color: Color.fromARGB(255, 33, 33, 33),
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-                  child: Text(
-                    "Education",
                     style: TextStyle(
                       fontSize: topRightTextSize,
                       color: Color.fromARGB(255, 33, 33, 33),
