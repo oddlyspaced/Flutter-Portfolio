@@ -53,7 +53,7 @@ class _EducationScreenDesktopState extends State<EducationScreenDesktop> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Text(
-              "About",
+              "Academics",
               style: TextStyle(
                 color: Color.fromARGB(255, 33, 33, 33),
                 fontSize: 48,

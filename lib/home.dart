@@ -75,7 +75,7 @@ class _HomeWidgetDesktopState extends State<HomeWidgetDesktop> {
                   child: Padding(
                     padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
                     child: Text(
-                      "Education",
+                      "Academics",
                       style: TextStyle(
                         fontSize: topRightTextSize,
                         color: Color.fromARGB(255, 33, 33, 33),
