@@ -67,306 +67,184 @@ class _SkillsScreenDesktopState extends State<SkillsScreenDesktop> {
             ),
             Expanded(
               child: Container(
-                child: Column(
+                child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        Text(
-                          "Education",
-                          style: TextStyle(
-                            fontSize: 32,
-                            fontWeight: FontWeight.w400,
-                          ),
-                        ),
-                        Padding(
-                          padding: EdgeInsets.only(top: 8),
+                        Row(
+                          children: [
+                            Image.network(
+                              "https://github.com/oddlyspaced/oddlyspaced.github.io/raw/master/assets/kotlin.png",
+                              width: 40,
+                              height: 40,
+                            ),
+                            Padding(
+                              padding: EdgeInsets.only(
+                                left: 16,
+                              ),
+                            ),
+                            Text(
+                              "Kotlin",
+                              style: TextStyle(
+                                fontSize: 28,
+                              ),
+                            )
+                          ],
                         ),
                         Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Image.network(
-                                  "https://raw.githubusercontent.com/oddlyspaced/oddlyspaced.github.io/master/assets/college.png",
-                                  height: 40,
-                                  width: 40,
-                                ),
-                                Padding(
-                                  padding: EdgeInsets.only(
-                                    top: 8,
-                                  ),
-                                ),
-                                Text(
-                                  "Bachelor of Technology",
-                                  style: TextStyle(
-                                    fontSize: 24,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                Text(
-                                  "Computer & Communication Engineering",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "Manipal University, Jaipur",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "2019 - 2023",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                              ],
+                            Image.network(
+                              "https://github.com/oddlyspaced/oddlyspaced.github.io/raw/master/assets/android.png",
+                              width: 40,
+                              height: 40,
                             ),
-                            Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Image.network(
-                                  "https://raw.githubusercontent.com/oddlyspaced/oddlyspaced.github.io/master/assets/school.png",
-                                  height: 40,
-                                  width: 40,
-                                ),
-                                Padding(
-                                  padding: EdgeInsets.only(
-                                    top: 8,
-                                  ),
-                                ),
-                                Text(
-                                  "Senior Secondary",
-                                  style: TextStyle(
-                                    fontSize: 24,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                Text(
-                                  "ISC - 89.25%",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "City Montessori School, Lucknow",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "2019",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                              ],
+                            Padding(
+                              padding: EdgeInsets.only(
+                                left: 16,
+                              ),
                             ),
-                            Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Image.network(
-                                  "https://raw.githubusercontent.com/oddlyspaced/oddlyspaced.github.io/master/assets/school.png",
-                                  height: 40,
-                                  width: 40,
-                                ),
-                                Padding(
-                                  padding: EdgeInsets.only(
-                                    top: 8,
-                                  ),
-                                ),
-                                Text(
-                                  "Secondary",
-                                  style: TextStyle(
-                                    fontSize: 24,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                Text(
-                                  "ICSE - 86%",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "City Montessori School, Lucknow",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "2017",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                              ],
+                            Text(
+                              "Android App Development",
+                              style: TextStyle(
+                                fontSize: 28,
+                              ),
+                            )
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Image.network(
+                              "https://github.com/oddlyspaced/oddlyspaced.github.io/raw/master/assets/flutter.png",
+                              width: 40,
+                              height: 40,
                             ),
+                            Padding(
+                              padding: EdgeInsets.only(
+                                left: 16,
+                              ),
+                            ),
+                            Text(
+                              "Flutter",
+                              style: TextStyle(
+                                fontSize: 28,
+                              ),
+                            )
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Image.network(
+                              "https://github.com/oddlyspaced/oddlyspaced.github.io/raw/master/assets/linux.png",
+                              width: 40,
+                              height: 40,
+                            ),
+                            Padding(
+                              padding: EdgeInsets.only(
+                                left: 16,
+                              ),
+                            ),
+                            Text(
+                              "Linux",
+                              style: TextStyle(
+                                fontSize: 28,
+                              ),
+                            )
                           ],
                         ),
                       ],
                     ),
+                    Spacer(),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        Text(
-                          "Achievments",
-                          style: TextStyle(
-                            fontSize: 32,
-                            fontWeight: FontWeight.w400,
-                          ),
-                        ),
-                        Padding(
-                          padding: EdgeInsets.only(top: 8),
+                        Row(
+                          children: [
+                            Image.network(
+                              "https://github.com/oddlyspaced/oddlyspaced.github.io/raw/master/assets/kotlin.png",
+                              width: 40,
+                              height: 40,
+                            ),
+                            Padding(
+                              padding: EdgeInsets.only(
+                                left: 16,
+                              ),
+                            ),
+                            Text(
+                              "Java",
+                              style: TextStyle(
+                                fontSize: 28,
+                              ),
+                            )
+                          ],
                         ),
                         Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Image.network(
-                                  "https://raw.githubusercontent.com/oddlyspaced/oddlyspaced.github.io/master/assets/trophy.png",
-                                  height: 40,
-                                  width: 40,
-                                ),
-                                Padding(
-                                  padding: EdgeInsets.only(
-                                    top: 8,
-                                  ),
-                                ),
-                                Text(
-                                  "2nd Prize - Programming",
-                                  style: TextStyle(
-                                    fontSize: 24,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                Text(
-                                  "Blitz",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "Interschool Event",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "Mount Carmel College, Lucknow",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "2019",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                              ],
+                            Image.network(
+                              "https://github.com/oddlyspaced/oddlyspaced.github.io/raw/master/assets/android.png",
+                              width: 40,
+                              height: 40,
                             ),
-                            Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Image.network(
-                                  "https://raw.githubusercontent.com/oddlyspaced/oddlyspaced.github.io/master/assets/trophy.png",
-                                  height: 40,
-                                  width: 40,
-                                ),
-                                Padding(
-                                  padding: EdgeInsets.only(
-                                    top: 8,
-                                  ),
-                                ),
-                                Text(
-                                  "3rd Prize - Programming",
-                                  style: TextStyle(
-                                    fontSize: 24,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                Text(
-                                  "COFAS Internation",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "International Event",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "City Montessori School, Lucknow",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "2019",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                              ],
+                            Padding(
+                              padding: EdgeInsets.only(
+                                left: 16,
+                              ),
                             ),
-                            Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  "                                     ",
-                                  style: TextStyle(
-                                    fontSize: 24,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                Text(
-                                  "",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                Text(
-                                  "",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                              ],
+                            Text(
+                              "C Programming",
+                              style: TextStyle(
+                                fontSize: 28,
+                              ),
+                            )
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Image.network(
+                              "https://github.com/oddlyspaced/oddlyspaced.github.io/raw/master/assets/flutter.png",
+                              width: 40,
+                              height: 40,
                             ),
+                            Padding(
+                              padding: EdgeInsets.only(
+                                left: 16,
+                              ),
+                            ),
+                            Text(
+                              "Python",
+                              style: TextStyle(
+                                fontSize: 28,
+                              ),
+                            )
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Image.network(
+                              "https://github.com/oddlyspaced/oddlyspaced.github.io/raw/master/assets/linux.png",
+                              width: 40,
+                              height: 40,
+                            ),
+                            Padding(
+                              padding: EdgeInsets.only(
+                                left: 16,
+                              ),
+                            ),
+                            Text(
+                              "R",
+                              style: TextStyle(
+                                fontSize: 28,
+                              ),
+                            )
                           ],
                         ),
                       ],
-                    )
+                    ),
+                    Spacer(),
                   ],
                 ),
               ),
