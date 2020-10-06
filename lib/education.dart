@@ -62,7 +62,7 @@ class _EducationScreenDesktopState extends State<EducationScreenDesktop> {
             ),
             Padding(
               padding: EdgeInsets.only(
-                top: 16,
+                top: 32,
               ),
             ),
             Expanded(
