@@ -4,6 +4,8 @@ import 'package:portfolio/education.dart';
 import 'package:portfolio/skills.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
+import 'package:portfolio/experience.dart';
+
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -100,13 +102,19 @@ class _HomeWidgetDesktopState extends State<HomeWidgetDesktop> {
                     ),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-                  child: Text(
-                    "Experience",
-                    style: TextStyle(
-                      fontSize: topRightTextSize,
-                      color: Color.fromARGB(255, 33, 33, 33),
+                InkWell(
+                  onTap: () {
+                    Navigator.of(context).push(
+                        MaterialPageRoute(builder: (context) => Experience()));
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+                    child: Text(
+                      "Experience",
+                      style: TextStyle(
+                        fontSize: topRightTextSize,
+                        color: Color.fromARGB(255, 33, 33, 33),
+                      ),
                     ),
                   ),
                 ),
