@@ -1,16 +1,16 @@
-# portfolio
 
-A new Flutter project.
 
-## Getting Started
+# Portfolio
 
-This project is a starting point for a Flutter application.
+Sample portfolio website I made to learn Flutter for Web.
+Code quality is not very great and everything is hardcoded in place with no mobile support.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+<img src="https://raw.githubusercontent.com/oddlyspaced/Portfolio/master/screenshots/home.png" width="853" height="480"/>
+<img src="https://raw.githubusercontent.com/oddlyspaced/Portfolio/master/screenshots/education.png" width="853" height="480"/>
+<img src="https://raw.githubusercontent.com/oddlyspaced/Portfolio/master/screenshots/skills.png" width="853" height="480"/>
+<img src="https://raw.githubusercontent.com/oddlyspaced/Portfolio/master/screenshots/experience.png" width="853" height="480"/>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Design Inspiration
+[Personal Website by Mehmet Eren Olgun](https://www.behance.net/gallery/102515935/Personal-Website)
